@@ -8,13 +8,14 @@
 .page-1{
   width:min(99%,400px);
   margin:auto;
-  min-height:600px;
+  min-height:min(99%,600px);
   background-color: white;
 }
 .page-2{
   width:min(99%,400px);
   margin:auto;
-  min-height:400px;
+  /* min-height:min(99%,600px); */
+  height: min(99%,1200px);
   background-color: white;
 }
 
